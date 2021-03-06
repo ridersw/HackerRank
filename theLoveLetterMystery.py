@@ -16,7 +16,7 @@ def theLoveLetterMystery(s):
 			tempNum1 = alphabets.index(s[swi])
 			tempNum2 = alphabets.index(s[swj])
 			numberOfOperations += abs(tempNum1 - tempNum2)
-			print("numberOfOperations: ", numberOfOperations)
+			#print("numberOfOperations: ", numberOfOperations)
 		
 		swi += 1
 		swj -= 1
